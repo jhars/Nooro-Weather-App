@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99E7ADC12D0BDFF700549BBB /* Nooro03App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E7ADC02D0BDFF700549BBB /* Nooro03App.swift */; };
+		99E7ADC32D0BDFF700549BBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E7ADC22D0BDFF700549BBB /* ContentView.swift */; };
+		99E7ADC52D0BDFF900549BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E7ADC42D0BDFF900549BBB /* Assets.xcassets */; };
+		99E7ADC82D0BDFF900549BBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E7ADC72D0BDFF900549BBB /* Preview Assets.xcassets */; };
+		99E7ADD22D0BDFF900549BBB /* Nooro03Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E7ADD12D0BDFF900549BBB /* Nooro03Tests.swift */; };
+		99E7ADDC2D0BDFF900549BBB /* Nooro03UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E7ADDB2D0BDFF900549BBB /* Nooro03UITests.swift */; };
+		99E7ADDE2D0BDFF900549BBB /* Nooro03UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E7ADDD2D0BDFF900549BBB /* Nooro03UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99E7ADCE2D0BDFF900549BBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99E7ADB52D0BDFF700549BBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99E7ADBC2D0BDFF700549BBB;
+			remoteInfo = Nooro03;
+		};
+		99E7ADD82D0BDFF900549BBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99E7ADB52D0BDFF700549BBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99E7ADBC2D0BDFF700549BBB;
+			remoteInfo = Nooro03;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99E7ADBD2D0BDFF700549BBB /* Nooro03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nooro03.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E7ADC02D0BDFF700549BBB /* Nooro03App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nooro03App.swift; sourceTree = "<group>"; };
+		99E7ADC22D0BDFF700549BBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		99E7ADC42D0BDFF900549BBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99E7ADC72D0BDFF900549BBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99E7ADCD2D0BDFF900549BBB /* Nooro03Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nooro03Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E7ADD12D0BDFF900549BBB /* Nooro03Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nooro03Tests.swift; sourceTree = "<group>"; };
+		99E7ADD72D0BDFF900549BBB /* Nooro03UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nooro03UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E7ADDB2D0BDFF900549BBB /* Nooro03UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nooro03UITests.swift; sourceTree = "<group>"; };
+		99E7ADDD2D0BDFF900549BBB /* Nooro03UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nooro03UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99E7ADBA2D0BDFF700549BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E7ADCA2D0BDFF900549BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E7ADD42D0BDFF900549BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99E7ADB42D0BDFF700549BBB = {
+			isa = PBXGroup;
+			children = (
+				99E7ADBF2D0BDFF700549BBB /* Nooro03 */,
+				99E7ADD02D0BDFF900549BBB /* Nooro03Tests */,
+				99E7ADDA2D0BDFF900549BBB /* Nooro03UITests */,
+				99E7ADBE2D0BDFF700549BBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99E7ADBE2D0BDFF700549BBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99E7ADBD2D0BDFF700549BBB /* Nooro03.app */,
+				99E7ADCD2D0BDFF900549BBB /* Nooro03Tests.xctest */,
+				99E7ADD72D0BDFF900549BBB /* Nooro03UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99E7ADBF2D0BDFF700549BBB /* Nooro03 */ = {
+			isa = PBXGroup;
+			children = (
+				99E7ADC02D0BDFF700549BBB /* Nooro03App.swift */,
+				99E7ADC22D0BDFF700549BBB /* ContentView.swift */,
+				99E7ADC42D0BDFF900549BBB /* Assets.xcassets */,
+				99E7ADC62D0BDFF900549BBB /* Preview Content */,
+			);
+			path = Nooro03;
+			sourceTree = "<group>";
+		};
+		99E7ADC62D0BDFF900549BBB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				99E7ADC72D0BDFF900549BBB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99E7ADD02D0BDFF900549BBB /* Nooro03Tests */ = {
+			isa = PBXGroup;
+			children = (
+				99E7ADD12D0BDFF900549BBB /* Nooro03Tests.swift */,
+			);
+			path = Nooro03Tests;
+			sourceTree = "<group>";
+		};
+		99E7ADDA2D0BDFF900549BBB /* Nooro03UITests */ = {
+			isa = PBXGroup;
+			children = (
+				99E7ADDB2D0BDFF900549BBB /* Nooro03UITests.swift */,
+				99E7ADDD2D0BDFF900549BBB /* Nooro03UITestsLaunchTests.swift */,
+			);
+			path = Nooro03UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99E7ADBC2D0BDFF700549BBB /* Nooro03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99E7ADE12D0BDFF900549BBB /* Build configuration list for PBXNativeTarget "Nooro03" */;
+			buildPhases = (
+				99E7ADB92D0BDFF700549BBB /* Sources */,
+				99E7ADBA2D0BDFF700549BBB /* Frameworks */,
+				99E7ADBB2D0BDFF700549BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nooro03;
+			productName = Nooro03;
+			productReference = 99E7ADBD2D0BDFF700549BBB /* Nooro03.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99E7ADCC2D0BDFF900549BBB /* Nooro03Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99E7ADE42D0BDFF900549BBB /* Build configuration list for PBXNativeTarget "Nooro03Tests" */;
+			buildPhases = (
+				99E7ADC92D0BDFF900549BBB /* Sources */,
+				99E7ADCA2D0BDFF900549BBB /* Frameworks */,
+				99E7ADCB2D0BDFF900549BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99E7ADCF2D0BDFF900549BBB /* PBXTargetDependency */,
+			);
+			name = Nooro03Tests;
+			productName = Nooro03Tests;
+			productReference = 99E7ADCD2D0BDFF900549BBB /* Nooro03Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99E7ADD62D0BDFF900549BBB /* Nooro03UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99E7ADE72D0BDFF900549BBB /* Build configuration list for PBXNativeTarget "Nooro03UITests" */;
+			buildPhases = (
+				99E7ADD32D0BDFF900549BBB /* Sources */,
+				99E7ADD42D0BDFF900549BBB /* Frameworks */,
+				99E7ADD52D0BDFF900549BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99E7ADD92D0BDFF900549BBB /* PBXTargetDependency */,
+			);
+			name = Nooro03UITests;
+			productName = Nooro03UITests;
+			productReference = 99E7ADD72D0BDFF900549BBB /* Nooro03UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99E7ADB52D0BDFF700549BBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					99E7ADBC2D0BDFF700549BBB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					99E7ADCC2D0BDFF900549BBB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 99E7ADBC2D0BDFF700549BBB;
+					};
+					99E7ADD62D0BDFF900549BBB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 99E7ADBC2D0BDFF700549BBB;
+					};
+				};
+			};
+			buildConfigurationList = 99E7ADB82D0BDFF700549BBB /* Build configuration list for PBXProject "Nooro03" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99E7ADB42D0BDFF700549BBB;
+			productRefGroup = 99E7ADBE2D0BDFF700549BBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99E7ADBC2D0BDFF700549BBB /* Nooro03 */,
+				99E7ADCC2D0BDFF900549BBB /* Nooro03Tests */,
+				99E7ADD62D0BDFF900549BBB /* Nooro03UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99E7ADBB2D0BDFF700549BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E7ADC82D0BDFF900549BBB /* Preview Assets.xcassets in Resources */,
+				99E7ADC52D0BDFF900549BBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E7ADCB2D0BDFF900549BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E7ADD52D0BDFF900549BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99E7ADB92D0BDFF700549BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E7ADC32D0BDFF700549BBB /* ContentView.swift in Sources */,
+				99E7ADC12D0BDFF700549BBB /* Nooro03App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E7ADC92D0BDFF900549BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E7ADD22D0BDFF900549BBB /* Nooro03Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E7ADD32D0BDFF900549BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E7ADDC2D0BDFF900549BBB /* Nooro03UITests.swift in Sources */,
+				99E7ADDE2D0BDFF900549BBB /* Nooro03UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99E7ADCF2D0BDFF900549BBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99E7ADBC2D0BDFF700549BBB /* Nooro03 */;
+			targetProxy = 99E7ADCE2D0BDFF900549BBB /* PBXContainerItemProxy */;
+		};
+		99E7ADD92D0BDFF900549BBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99E7ADBC2D0BDFF700549BBB /* Nooro03 */;
+			targetProxy = 99E7ADD82D0BDFF900549BBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99E7ADDF2D0BDFF900549BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99E7ADE02D0BDFF900549BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99E7ADE22D0BDFF900549BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nooro03/Preview Content\"";
+				DEVELOPMENT_TEAM = 2A3HCCKAKW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stack.views.Nooro03;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99E7ADE32D0BDFF900549BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nooro03/Preview Content\"";
+				DEVELOPMENT_TEAM = 2A3HCCKAKW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stack.views.Nooro03;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99E7ADE52D0BDFF900549BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A3HCCKAKW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stack.views.Nooro03Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nooro03.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nooro03";
+			};
+			name = Debug;
+		};
+		99E7ADE62D0BDFF900549BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A3HCCKAKW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stack.views.Nooro03Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nooro03.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nooro03";
+			};
+			name = Release;
+		};
+		99E7ADE82D0BDFF900549BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A3HCCKAKW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stack.views.Nooro03UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nooro03;
+			};
+			name = Debug;
+		};
+		99E7ADE92D0BDFF900549BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A3HCCKAKW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stack.views.Nooro03UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nooro03;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99E7ADB82D0BDFF700549BBB /* Build configuration list for PBXProject "Nooro03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E7ADDF2D0BDFF900549BBB /* Debug */,
+				99E7ADE02D0BDFF900549BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99E7ADE12D0BDFF900549BBB /* Build configuration list for PBXNativeTarget "Nooro03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E7ADE22D0BDFF900549BBB /* Debug */,
+				99E7ADE32D0BDFF900549BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99E7ADE42D0BDFF900549BBB /* Build configuration list for PBXNativeTarget "Nooro03Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E7ADE52D0BDFF900549BBB /* Debug */,
+				99E7ADE62D0BDFF900549BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99E7ADE72D0BDFF900549BBB /* Build configuration list for PBXNativeTarget "Nooro03UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E7ADE82D0BDFF900549BBB /* Debug */,
+				99E7ADE92D0BDFF900549BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99E7ADB52D0BDFF700549BBB /* Project object */;
+}
