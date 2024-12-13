@@ -27,7 +27,6 @@ class WeatherService: WeatherFetchable {
         }
         return URLSession.shared
             .dataTaskPublisher(for: url)
-//            .map { $0.data }
             .tryMap({ res in
                 
                 guard let response = res.response as? HTTPURLResponse,
@@ -36,14 +35,13 @@ class WeatherService: WeatherFetchable {
                 }
                 
                 let decoder = JSONDecoder()
-                //                    guard let users = try? decoder.decode([User].self, from: data) else {
                 guard let weather = try? decoder.decode(CityWeatherAPIResponse.self, from: res.data) else {
                     throw URLError(.badServerResponse)
                 }
                 
                 return weather
             })
-//            .decode(type: CityWeatherAPIResponse.self, decoder: JSONDecoder())
+            //JH: is this API call proper format?
             .eraseToAnyPublisher()
             
     }

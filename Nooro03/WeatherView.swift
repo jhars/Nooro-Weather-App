@@ -25,7 +25,7 @@ struct WeatherView: View {
                     .font(.title)
                     .padding()
                 
-                Text("Temperature: \(weather.temp_f) °C")
+                Text("Temperature: \(weather.temp_f) °F")
                     .font(.headline)
                     .padding()
                 

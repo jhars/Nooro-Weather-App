@@ -8,10 +8,7 @@
 import Foundation
 import Combine
 
-private enum APIKEY {
-    static let key = "61cb84c280d54060a42201805240912"
-}
-
+private enum APIKEY { static let key = "61cb84c280d54060a42201805240912" }
 
 protocol WeatherViewModelInterface {
     func getWeatherForCity(city: String)
@@ -23,7 +20,6 @@ class WeatherViewModel: ObservableObject {
     @Published private var weatherModel: WeatherModel
     private var bag = Set<AnyCancellable>()
     
-//    private(set) var cityName: String
 //    @Published private(set) var isLoading: Bool = false
     
     // For Testability, is 'required' keyword required?
@@ -51,7 +47,6 @@ class WeatherViewModel: ObservableObject {
     
     var feelslike_f: String { return String(weatherModel.feelslike_f) }
 }
-
 
 extension WeatherViewModel: WeatherViewModelInterface {
     
