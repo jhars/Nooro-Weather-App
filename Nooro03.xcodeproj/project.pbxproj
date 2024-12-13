@@ -14,6 +14,10 @@
 		99E7ADD22D0BDFF900549BBB /* Nooro03Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E7ADD12D0BDFF900549BBB /* Nooro03Tests.swift */; };
 		99E7ADDC2D0BDFF900549BBB /* Nooro03UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E7ADDB2D0BDFF900549BBB /* Nooro03UITests.swift */; };
 		99E7ADDE2D0BDFF900549BBB /* Nooro03UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E7ADDD2D0BDFF900549BBB /* Nooro03UITestsLaunchTests.swift */; };
+		99E7ADEB2D0BE04100549BBB /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E7ADEA2D0BE04100549BBB /* WeatherViewModel.swift */; };
+		99E7ADED2D0BE10500549BBB /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E7ADEC2D0BE10500549BBB /* WeatherModel.swift */; };
+		99E7ADF12D0BF05000549BBB /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E7ADF02D0BF05000549BBB /* WeatherView.swift */; };
+		99E7ADF32D0BF76A00549BBB /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E7ADF22D0BF76A00549BBB /* WeatherService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,11 @@
 		99E7ADD72D0BDFF900549BBB /* Nooro03UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nooro03UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E7ADDB2D0BDFF900549BBB /* Nooro03UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nooro03UITests.swift; sourceTree = "<group>"; };
 		99E7ADDD2D0BDFF900549BBB /* Nooro03UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nooro03UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99E7ADEA2D0BE04100549BBB /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		99E7ADEC2D0BE10500549BBB /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		99E7ADF02D0BF05000549BBB /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		99E7ADF22D0BF76A00549BBB /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		99E7ADF42D0C0C9500549BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +103,15 @@
 		99E7ADBF2D0BDFF700549BBB /* Nooro03 */ = {
 			isa = PBXGroup;
 			children = (
+				99E7ADF42D0C0C9500549BBB /* Info.plist */,
 				99E7ADC02D0BDFF700549BBB /* Nooro03App.swift */,
 				99E7ADC22D0BDFF700549BBB /* ContentView.swift */,
 				99E7ADC42D0BDFF900549BBB /* Assets.xcassets */,
 				99E7ADC62D0BDFF900549BBB /* Preview Content */,
+				99E7ADEA2D0BE04100549BBB /* WeatherViewModel.swift */,
+				99E7ADEC2D0BE10500549BBB /* WeatherModel.swift */,
+				99E7ADF02D0BF05000549BBB /* WeatherView.swift */,
+				99E7ADF22D0BF76A00549BBB /* WeatherService.swift */,
 			);
 			path = Nooro03;
 			sourceTree = "<group>";
@@ -257,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E7ADF12D0BF05000549BBB /* WeatherView.swift in Sources */,
 				99E7ADC32D0BDFF700549BBB /* ContentView.swift in Sources */,
+				99E7ADEB2D0BE04100549BBB /* WeatherViewModel.swift in Sources */,
+				99E7ADED2D0BE10500549BBB /* WeatherModel.swift in Sources */,
+				99E7ADF32D0BF76A00549BBB /* WeatherService.swift in Sources */,
 				99E7ADC12D0BDFF700549BBB /* Nooro03App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +438,7 @@
 				DEVELOPMENT_TEAM = 2A3HCCKAKW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nooro03/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +468,7 @@
 				DEVELOPMENT_TEAM = 2A3HCCKAKW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nooro03/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
