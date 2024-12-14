@@ -15,7 +15,7 @@ struct WeatherView: View {
     var body: some View {
         VStack {
             TextField("Enter city", text: $city, onCommit: {
-                weatherViewModel.getWeatherForCity(city: city)
+//                weatherViewModel.getWeatherForCity(city: city)
             })
             .textFieldStyle(RoundedBorderTextFieldStyle())
             .padding()

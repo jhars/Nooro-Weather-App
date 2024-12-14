@@ -11,7 +11,7 @@ import Combine
 private enum APIKEY { static let key = "61cb84c280d54060a42201805240912" }
 
 protocol WeatherViewModelInterface {
-    func getWeatherForCity(city: String)
+//    func getWeatherForCity(city: String)
 }
 
 class WeatherViewModel: ObservableObject {
@@ -50,23 +50,22 @@ class WeatherViewModel: ObservableObject {
 
 extension WeatherViewModel: WeatherViewModelInterface {
     
-    func getWeatherForCity(city: String) {
-        weatherService.fetchWeatherData(city: city)
-            .receive(on: DispatchQueue.main)
-            .sink { [weak self] res in
-            
-//                defer { self?.isRefreshing = false }
-            
-                switch res {
-                case .failure(let error):
-                    print(error)
-                default: break
-                }
-            
-            } receiveValue: { [weak self] weather in
-                self?.weatherModel = WeatherModel(data: weather)
-            }
-            .store(in: &bag)
-    }
-
+//    func getWeatherForCity(city: String) {
+//        weatherService.fetchWeatherData(cityID: city)
+//            .receive(on: DispatchQueue.main)
+//            .sink { [weak self] res in
+//
+////                defer { self?.isRefreshing = false }
+//
+//                switch res {
+//                case .failure(let error):
+//                    print(error)
+//                default: break
+//                }
+//
+//            } receiveValue: { [weak self] weather in
+//                self?.weatherModel = WeatherModel(data: weather)
+//            }
+//            .store(in: &bag)
+//    }
 }

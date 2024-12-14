@@ -18,7 +18,8 @@ struct ContentView: View {
 //        .padding()
 //    }
     var body: some View {
-        WeatherView()
+//        WeatherView()
+        CityListView()
     }
 }
 

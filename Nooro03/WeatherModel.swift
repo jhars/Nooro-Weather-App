@@ -9,6 +9,7 @@ import Foundation
 
 // JH: Do we need codable? what is utility here?
 struct WeatherModel: Codable {
+    let id: Int
     let city: String
     let temp_f: Float
     let condition_text: String
@@ -18,6 +19,7 @@ struct WeatherModel: Codable {
     let feelslike_f: Float
     
     init() {
+        id = -1
         city = ""
         temp_f = 0.0
         condition_text = ""
@@ -26,11 +28,11 @@ struct WeatherModel: Codable {
         uv = 0.0
         feelslike_f = 0.0
     }
-    
 }
 
 extension WeatherModel {
-    init(data: CityWeatherAPIResponse) {
+    init(data: WeatherAPIResponse, id: Int) {
+        self.id = id
         city = data.location.name
         temp_f = data.current.temp_f
         condition_text = data.current.condition.text
@@ -42,7 +44,7 @@ extension WeatherModel {
 }
 
 //############ HOW TO HANDLE SOECIFIC MODEL FROM API #####################
-struct CityWeatherAPIResponse: Codable {
+struct WeatherAPIResponse: Codable {
     let location: Location
     let current: Current
     
@@ -63,3 +65,5 @@ struct CityWeatherAPIResponse: Codable {
         let name: String
     }
 }
+
+
