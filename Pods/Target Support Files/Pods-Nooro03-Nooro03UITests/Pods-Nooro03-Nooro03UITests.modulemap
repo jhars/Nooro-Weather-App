@@ -1,0 +1,6 @@
+framework module Pods_Nooro03_Nooro03UITests {
+  umbrella header "Pods-Nooro03-Nooro03UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

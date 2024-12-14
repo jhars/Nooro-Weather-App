@@ -1,0 +1,6 @@
+framework module Pods_Nooro03 {
+  umbrella header "Pods-Nooro03-umbrella.h"
+
+  export *
+  module * { export * }
+}

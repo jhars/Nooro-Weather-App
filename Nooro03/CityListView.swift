@@ -13,11 +13,10 @@ struct CityListView: View {
     
     var body: some View {
         NavigationView {
-            List(cityListViewModel.weatherForCities, id: \.id) { city in
+            List(cityListViewModel.weatherForCities, id: \.id) { weather in
                 HStack {
-                    Text(city.city)
-//                    Text(String(city.id))
-                    //add icon image here
+                    Text(weather.city)
+                    AsyncImage(url: URL(string: "https:\(weather.condition_icon)")!)
                 }
             }.listStyle(.plain)
                 .searchable(text: $searchText, prompt: "Search Location")

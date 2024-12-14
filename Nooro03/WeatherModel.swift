@@ -17,6 +17,7 @@ struct WeatherModel: Codable {
     let humidity: Int
     let uv: Float
     let feelslike_f: Float
+//    let dayOrNight: String
     
     init() {
         id = -1
@@ -27,6 +28,7 @@ struct WeatherModel: Codable {
         humidity = 0
         uv = 0.0
         feelslike_f = 0.0
+//        dayOrNight = "day"
     }
 }
 
@@ -40,6 +42,7 @@ extension WeatherModel {
         humidity = data.current.humidity
         uv = data.current.uv
         feelslike_f = data.current.feelslike_f
+//        dayOrNight = data.current.is_day == 1 ? "day" : "night"
     }
 }
 
@@ -54,11 +57,13 @@ struct WeatherAPIResponse: Codable {
         let humidity: Int
         let uv: Float
         let feelslike_f: Float
+//        let is_day: Int
     }
     
     struct Condition: Codable {
         let text: String
         let icon: String
+//        let code: Int
     }
     
     struct Location: Codable {
