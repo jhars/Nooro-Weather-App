@@ -8,7 +8,7 @@
 import Foundation
 
 // JH: Do we need codable? what is utility here?
-struct WeatherModel: Codable {
+struct WeatherModel: Codable, Hashable {
     let id: Int
     let city: String
     let temp_f: Float
