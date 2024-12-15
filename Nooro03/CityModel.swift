@@ -14,5 +14,4 @@ struct CitySearchAPIResponse: Codable {
     let region: String
     let country: String
     let url: String
-//    var weather: WeatherModel?
 }

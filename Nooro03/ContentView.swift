@@ -8,18 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
-//    var body: some View {
-//        VStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundColor(.accentColor)
-//            Text("Hello, world!")
-//        }
-//        .padding()
-//    }
+//    @State private var searchText: String = ""
+//    @ObservedObject var cityListViewModel = CityListViewModel()
+//    var searchResultsView = SearchResultsView()
+//    var weatherView = WeatherView()
+    
     var body: some View {
-//        WeatherView()
-        CityListView()
+//        TextField("Search", text: searchResultsView.$searchText)
+//            .onChange(of: searchResultsView.searchText) { value in
+//                if !value.isEmpty && value.count > 3 {
+//                    print("should show city list")
+//                    searchResultsView.cityListViewModel.citySearch(term: value)
+//                } else {
+//                    print("should not sow city list")
+//                    searchResultsView.cityListViewModel.weatherForCities.removeAll()
+//                }
+//            }
+//        searchResultsView
+        
+        SearchResultsView()
     }
 }
 
