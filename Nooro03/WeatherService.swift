@@ -28,10 +28,6 @@ class WeatherService: WeatherFetchable {
             .eraseToAnyPublisher()
     }
     
-    func loadConditionIconImage(url: String) {
-        //JH: do sutuff here
-    }
-    
     private func loadCities(citySearch: String) -> AnyPublisher<[CitySearchAPIResponse], Error> {
         let searchString = citySearch.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
         guard let apiUrl = URL(string: "\(baseURL)/search.json?key=\(APIKEY.key)&q=\(searchString)") else {
@@ -95,3 +91,12 @@ class WeatherService: WeatherFetchable {
     }
 
 }
+
+struct CitySearchAPIResponse: Codable {
+    let id: Int
+    let name: String
+    let region: String
+    let country: String
+    let url: String
+}
+

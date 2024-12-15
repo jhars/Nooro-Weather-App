@@ -8,7 +8,7 @@
 import Foundation
 
 // JH: Do we need codable? what is utility here?
-struct WeatherModel: Codable, Hashable {
+struct WeatherModel: Codable, Hashable, Identifiable {
     let id: Int
     let city: String
     let temp_f: Float
@@ -17,7 +17,8 @@ struct WeatherModel: Codable, Hashable {
     let humidity: Int
     let uv: Float
     let feelslike_f: Float
-//    let dayOrNight: String
+    let region: String
+    let country: String
     
     init() {
         id = -1
@@ -28,7 +29,8 @@ struct WeatherModel: Codable, Hashable {
         humidity = 0
         uv = 0.0
         feelslike_f = 0.0
-//        dayOrNight = "day"
+        region = ""
+        country = ""
     }
 }
 
@@ -42,7 +44,8 @@ extension WeatherModel {
         humidity = data.current.humidity
         uv = data.current.uv
         feelslike_f = data.current.feelslike_f
-//        dayOrNight = data.current.is_day == 1 ? "day" : "night"
+        region = data.location.region
+        country = data.location.country
     }
 }
 
@@ -57,17 +60,17 @@ struct WeatherAPIResponse: Codable {
         let humidity: Int
         let uv: Float
         let feelslike_f: Float
-//        let is_day: Int
     }
     
     struct Condition: Codable {
         let text: String
         let icon: String
-//        let code: Int
     }
     
     struct Location: Codable {
         let name: String
+        let region: String
+        let country: String
     }
 }
 

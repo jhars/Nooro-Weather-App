@@ -8,16 +8,15 @@
 import Foundation
 import Combine
 
-protocol CityListViewModelInterface {
+protocol SearchResultViewModelInterface {
     func citySearch(term: String)
 }
 
 //JH: do i need this?
 @MainActor
-class CityListViewModel: ObservableObject {
+class SearchResultViewModel: ObservableObject {
     
     var weatherService: WeatherFetchable
-    @Published var cities: [CitySearchAPIResponse] = []
     @Published var weatherForCities: [WeatherModel] = []
     private var bag = Set<AnyCancellable>()
     
@@ -31,7 +30,7 @@ class CityListViewModel: ObservableObject {
     
 }
 
-extension CityListViewModel: CityListViewModelInterface {
+extension SearchResultViewModel: SearchResultViewModelInterface {
     
     func citySearch(term: String) {
         weatherService.loadData(searchTerm: term)
