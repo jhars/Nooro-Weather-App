@@ -38,8 +38,18 @@ class CityWeatherViewModel: ObservableObject {
         self.feelslike_f = String(Int(feelslike_f))
         self.region = region
         self.country = country
+        
+        let defaults = UserDefaults.standard
+        defaults.set(city, forKey: "city")
+        defaults.set(temp_f, forKey: "temp_f")
+        defaults.set(condition_text, forKey: "condition_text")
+        defaults.set(condition_icon, forKey: "condition_icon")
+        defaults.set(humidity, forKey: "humidity")
+        defaults.set(uv, forKey: "uv")
+        defaults.set(feelslike_f, forKey: "feelslike_f")
+        defaults.set(region, forKey: "region")
+        defaults.set(country, forKey: "country")
     }
-
 
 }
 
